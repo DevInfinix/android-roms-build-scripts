@@ -1,0 +1,1 @@
+crave run --no-patch "rm -rf .repo/local_manifests ; git clone https://github.com/DevInfinix/android-aosp-local-manifests --depth 1 -b 14-derp-bleeding-edge .repo/local_manifests ; /opt/crave/resync.sh ; source build/envsetup.sh ; lunch derp_ice-userdebug ; mka bacon"
